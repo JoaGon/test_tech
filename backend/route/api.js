@@ -6,7 +6,7 @@ const apiController = require('../controller/api')
 
 router.post('/',
     validateBody(apiSchema),
-    apiController.getAnAdminQuot
+    apiController.getUTC
 );
 
 

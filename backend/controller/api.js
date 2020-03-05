@@ -1,7 +1,11 @@
-exports.getAnAdminQuot = async (req, res) => {
+
+
+exports.getUTC = async (req, res) => {
     const data = req.body
-    console.log('data', data)
+
+    const response = data
     return res.status(200).json({
-        data
+        response,
+        message:'succes'
     })
 }
