@@ -1,5 +1,3 @@
-const moment = require('moment');
-
 exports.getUTC = async (req, res) => {
 
     const data = req.body

@@ -5,7 +5,7 @@ var cors = require('cors')
 // Initialize app
 const app = express();
 // Initialize port
-const port = 3000;
+const port = 9000;
 // Initialize paths
 const path = require('path');
 // Initialize route
@@ -39,7 +39,7 @@ app.use((error, req, res, next) => {
 });
 
 
-// Start server with port 3000
+// Start server with port 9000
 app.listen(port, function () {
     console.log('Server is starting at ' + port);
 })
