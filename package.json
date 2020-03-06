@@ -1,0 +1,24 @@
+{
+  "name": "technical_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd frontend && npm run start\" \"npm run start\"",
+    "start": "nodemon backend/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joagon/test_tech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joagon/test_tech/issues"
+  },
+  "homepage": "https://github.com/joagon/test_tech#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
